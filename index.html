@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>EasyCam</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__menu">
+                <a href="#" class="header__logo"><img src="./img/logo.png" alt="logo"></a>
+                <div class="header__menu-items">
+                    <a href="#" class="header__item">Готовые решения</a>
+                    <a href="#" class="header__item">Тарифы</a>
+                    <a href="#" class="header__item">Новости</a>
+                    <a href="#" class="header__item">Контакты</a>
+                    <button class="header__btn">Войти</button>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="header__left">
+                    <h1 class="header__title">Облачное видеонаблюдение под ваши цели</h1>
+                    <div class="header__row">
+                        <div class="header__row-left">
+                            <div class="header__row-line"></div>
+                            <p class="header__text">Скрол</p>
+                        </div>
+                        <div class="header__row-right">
+                            <p class="header__row-text">Видео - контроль на любом устройстве в прямом эфире. С
+                                возможностью хранения записи вплоть до 7 дней</p>
+                            <button class="header__row-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <img class="header__img" src="./img/main__img.png" alt="main__img">
+            </div>
+            <div class="header__bottom">
+                <div class="header__buttons">
+                    <button class="header__prev btn"><img src="./img/icons/prev.svg" alt="prev"></button>
+                    <button class="header__next btn"><img src="./img/icons/next.svg" alt="prev"></button>
+                </div>
+                <div class="header__pagination">
+                    <div class="header__pagination-item active">
+                        <p class="pagination__number">01</p>
+                        <div class="pagination__border"></div>
+                    </div>
+                    <div class="header__pagination-item">
+                        <p class="pagination__number">02</p>
+                        <div class="pagination__border"></div>
+                    </div>
+                    <div class="header__pagination-item">
+                        <p class="pagination__number">03</p>
+                        <div class="pagination__border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title title">Мы осуществляем следующие услуги</h2>
+            <p class="about__subtitle">Кроме этого техническая поддержка всегда проконсультирует Вас по любым вопросам,
+                а также произведет удаленную диагностику вашей системы по первому запросы и в самые кротчайшие сроки
+            </p>
+            <div class="about__row">
+                <div class="about__items">
+                    <div class="about__img-circle">
+                        <img src="./img/item1.png" alt="item1" class="about__img">
+                    </div>
+                    <div class="about__item-title">Монтаж</div>
+                    <div class="about__item-subtitle">Произведем монтаж камер видеонаблюдения у Вас дома, на работе,
+                        даче или просто во дворе </div>
+                </div>
+                <div class="about__items">
+                    <div class="about__img-circle">
+                        <img src="./img/item2.png" alt="item2" class="about__img">
+                    </div>
+                    <div class="about__item-title">Обслуживание</div>
+                    <div class="about__item-subtitle">Если у Вас возникнут трудности мы дадим консультацию, а при
+                        необходимости приедем к вам на объект</div>
+                </div>
+                <div class="about__items">
+                    <div class="about__img-circle">
+                        <img src="./img/item3.png" alt="item3" class="about__img">
+                    </div>
+                    <div class="about__item-title">Личный кабинет</div>
+                    <div class="about__item-subtitle">Смотрите трансляцию онлайн,  а если не успели мы храним записи 7
+                        дней, просто зайдите  в архив</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download">
+        <div class="container">
+            <h2 class="download__title title">Скачайте наше приложение в AppStore и Google Play</h2>
+            <div class="download__list">
+                <p class="download__item">cмотрите онлайн-трансляцию с Ваших видеокамер</p>
+                <p class="download__item">надёжно храните архив в облаке от 7 дней и выше</p>
+                <p class="download__item">получите доступ к архиву в режиме онлайн</p>
+                <p class="download__item">сохраняйте архив на Ваши устройства</p>
+            </div>
+            <div class="download__img-row">
+                <a href="#" class="download__img"><img src="./img/google.png" alt="google"></a>
+                <a href="#" class="download__img"><img src="./img/apple.png" alt="apple"></a>
+            </div>
+        </div>
+    </section>
+    <section class="selection">
+        <div class="container">
+            <h2 class="selection__title title">Выберите тариф</h2>
+            <div class="selection__row">
+                <div class="selection__item">
+                    <h3 class="selection__item-title">Стандарт</h3>
+                    <p class="selection__item-price"><span class="selection-bigger">250₽</span>/ месяц</p>
+                    <p class="selection__item-text">Запись архива и хранение 7 дней. Подключение 1 камеры. Онлайн доступ
+                        к камере</p>
+                    <button class="selection__btn">Оставить заявку</button>
+                </div>
+                <div class="selection__item">
+                    <h3 class="selection__item-title">Оптимальный</h3>
+                    <p class="selection__item-price"><span class="selection-bigger">650₽</span>/ месяц</p>
+                    <p class="selection__item-text">Запись архива и хранение в 30 дней. Подключение 1 камеры. Онлайн
+                        доступ к камере</p>
+                    <button class="selection__btn">Оставить заявку</button>
+                </div>
+                <div class="selection__item">
+                    <h3 class="selection__item-title">Бизнес</h3>
+                    <p class="selection__item-price"><span class="selection-bigger">950₽</span>/ месяц</p>
+                    <p class="selection__item-text">Запись архива и хранение 60 дней. Подключение 1 камеры. Онлайн
+                        доступ к камере</p>
+                    <button class="selection__btn">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="connection">
+        <div class="container">
+            <h2 class="connection__title title">Готовые решения для подключения</h2>
+            <div class="connection__row">
+                <div class="connection__item">
+                    <img class="connection__item-img" src="./img/item.png" alt="item">
+                    <p class="connection__item-top">Для дома</p>
+                    <div class="connection-item-title">Цифровая IP камера для подключения в облачный сервис EasyCam.
+                    </div>
+                    <p class="connection__config">Разрешение: 1920*1080@25fps</p>
+                    <p class="connection__config">Объектив: 2.8mm lens</p>
+                    <p class="connection__config">Гарантия : 1 год</p>
+                </div>
+                <div class="connection__item">
+                    <img class="connection__item-img" src="./img/item.png" alt="item">
+                    <p class="connection__item-top">Для бизнеса</p>
+                    <div class="connection-item-title">Цифровая IP камера для подключения в облачный сервис EasyCam.
+                    </div>
+                    <p class="connection__config">Разрешение: 1920*1080@25fps</p>
+                    <p class="connection__config">Объектив: 2.8mm lens</p>
+                    <p class="connection__config">Гарантия : 1 год</p>
+                </div>
+                <div class="connection__item">
+                    <img class="connection__item-img" src="./img/item.png" alt="item">
+                    <p class="connection__item-top">Для улицы</p>
+                    <div class="connection-item-title">Цифровая IP камера для подключения в облачный сервис EasyCam.
+                    </div>
+                    <p class="connection__config">Разрешение: 1920*1080@25fps</p>
+                    <p class="connection__config">Объектив: 2.8mm lens</p>
+                    <p class="connection__config">Гарантия : 1 год</p>
+                </div>
+            </div>
+            <a class="connection__link" href="#">Перейти в каталог</a>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title title">Новости компании</h2>
+            <div class="news__column">
+                <div class="news__item">
+                    <div class="news__item-title">Запуск мобильного приложения</div>
+                    <div class="news__right">
+                        <div class="news__top">07.02.20</div>
+                        <div class="news__text">С сегоднешнего наш сервис стал еще удобнее благодаря приложениям для iOS
+                            и Android ...</div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item-title">Подключение под ключ в Воронеже</div>
+                    <div class="news__right">
+                        <div class="news__top">07.02.20</div>
+                        <div class="news__text">Монтаж и подключение системы видеонаблюдения под ключ ...</div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item-title">Мартовская акция</div>
+                    <div class="news__right">
+                        <div class="news__top">07.02.20</div>
+                        <div class="news__text">Подключение интернета на особых условиях. Полный безлимитный интернет
+                            ...</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="news__link">Посмотреть всё</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row title">
+                <div class="footer__list">
+                    <h3 class="footer__title">Контакты</h3>
+                    <a href="#" class="footer__num">+7 (473) 257-31-91</a>
+                    <a href="#" class="footer__link">Скачать реквизиты</a>
+                    <div class="footer__imgs">
+                        <img src="./img/google.png" alt="google" class="footer__img">
+                        <img src="./img/apple.png" alt="apple" class="footer__img">
+                    </div>
+                    <div class="footer__copyright">Copyright © 2013 - 2020 EASYCAM - облачное видеонаблюдение</div>
+                </div>
+                <div class="footer__list">
+                    <h3 class="footer__title">Полезные ссылки</h3>
+                    <div class="footer__nav-links">
+                        <a href="#" class="footer__nav-item">На главную</a>
+                        <a href="#" class="footer__nav-item">Наши услуги</a>
+                        <a href="#" class="footer__nav-item">Тарифы</a>
+                        <a href="#" class="footer__nav-item">Готовые решения</a>
+                        <a href="#" class="footer__nav-item">Новости компании</a>
+                        <a href="#" class="footer__nav-item">Личный кабинет</a>
+                    </div>
+                </div>
+                <div class="footer__list">
+                    <h3 class="footer__title">Оставьте заявку на подключение</h3>
+                    <form action="#" class="footer__form">
+                        <input class="footer__input" type="number" id="number" placeholder="Ваш телефон">
+                        <input class="footer__input" type="text" id="name" placeholder="Ваше имя">
+                        <input class="footer__input footer__button" type="button" value="Оставить заявку">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
